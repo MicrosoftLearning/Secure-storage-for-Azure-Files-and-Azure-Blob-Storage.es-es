@@ -57,7 +57,7 @@ La empresa está diseñando y desarrollando una nueva aplicación. Los desarroll
     - En el centro de la página, seleccione **Agregar asignación de roles**.
     - En la página **Roles de función del trabajo**, busque y seleccione el rol **Administrador de almacén de claves**.
     - En la página **Miembros**, seleccione **Usuario, grupo o entidad de servicio**.
-    - Elija **Seleccionar miembros**.
+    - Seleccione **Seleccionar miembros**.
     - Busque su cuenta de usuario y selecciónela. En la esquina superior derecha del portal, aparece su cuenta de usuario.
     - Haga clic en **Seleccionar** y, a continuación, en **Revisar y asignar**.
     - Seleccione **Revisar y asignar** una segunda vez para agregar la asignación de roles.
@@ -68,7 +68,8 @@ La empresa está diseñando y desarrollando una nueva aplicación. Los desarroll
     - En el portal, busque y seleccione **Almacenes de claves**.
     - Seleccione **Crear**.
     - Seleccione el **grupo de recursos**.
-    - Proporcione el **nombre** del almacén de claves. El nombre debe ser único. 
+    - Proporcione el **nombre** del almacén de claves. El nombre debe ser único.
+    - Asegúrese de que en la pestaña **Configuración de acceso** está seleccionada la **Directiva de acceso a almacenes**. 
     - Seleccione **Revisar + crear**.
     - Espere hasta que se complete la validación y seleccione **Crear**.
     - Una vez que la implementación se haya completado, seleccione **Ir al recurso**.
