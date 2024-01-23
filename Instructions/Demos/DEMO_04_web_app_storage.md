@@ -18,7 +18,7 @@ En esta demostración, explore el cifrado y la seguridad de aplicaciones.
 
 1. Cree una **identidad administrada**. Más información: [Identidades administradas](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Cree un **almacén de claves** con los valores predeterminados. Más información: [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Cree un **almacén de claves**. Adopte los valores predeterminados, **excepto** en la pestaña **Configuración de acceso**, asegúrese de que esté seleccionada la **directiva de acceso a almacenes**. Más información: [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Espere a que se implemente el contenedor y haga clic en **Ir al recurso**.
 
