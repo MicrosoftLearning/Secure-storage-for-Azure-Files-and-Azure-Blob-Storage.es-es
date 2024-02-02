@@ -50,7 +50,7 @@ En esta demostración, explore las redes de almacenamiento y el almacenamiento d
 
 1. Revise la configuración en la parte superior de la página. Por ejemplo, **Cargar** y **Cambiar el tamaño y el rendimiento**.
 
-1. Analice el propósito de las instantáneas. Más información: [Instantáneas de recursos compartidos de archivos](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. [Diapositiva auxiliar] Analice el propósito de las instantáneas. Más información: [Instantáneas de recursos compartidos de archivos](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. En la hoja **Operaciones**, seleccione **Instantáneas**.
 

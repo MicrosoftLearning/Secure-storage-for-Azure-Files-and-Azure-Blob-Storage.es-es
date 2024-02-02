@@ -18,7 +18,7 @@ En esta demostración, explore el cifrado y la seguridad de aplicaciones.
 
 1. Cree una **identidad administrada**. Más información: [Identidades administradas](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Cree un **almacén de claves**. Adopte los valores predeterminados, **excepto** en la pestaña **Configuración de acceso**, asegúrese de que esté seleccionada la **directiva de acceso a almacenes**. Más información: [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Cree un **almacén de claves**. Tome los valores predeterminados, **excepto** en la pestaña **Configuración de acceso**, asegúrese de que está seleccionado el **control de acceso basado en roles de Azure (recomendado **). Más información: [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Espere a que se implemente el contenedor y haga clic en **Ir al recurso**.
 
@@ -78,7 +78,7 @@ En esta demostración, explore el cifrado y la seguridad de aplicaciones.
 
 ## Configure un ámbito de cifrado para el cifrado de infraestructura.
 
-1. Los desarrolladores también deben definir el ámbito del cifrado de infraestructura en el nivel de contenedor. Analice los ámbitos de cifrado y el cifrado de infraestructura. Más información: [Ámbitos de cifrado](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. [Diapositiva auxiliar] Los desarrolladores también deben tener en cuenta el cifrado de la infraestructura en el nivel de contenedor. Analice los ámbitos de cifrado y el cifrado de infraestructura. Más información: [Ámbitos de cifrado](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Continúe en **cuenta de almacenamiento**.
 
