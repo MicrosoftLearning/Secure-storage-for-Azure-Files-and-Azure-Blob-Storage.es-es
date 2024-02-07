@@ -69,7 +69,7 @@ La empresa está diseñando y desarrollando una nueva aplicación. Los desarroll
     - Seleccione **Crear**.
     - Seleccione el **grupo de recursos**.
     - Proporcione el **nombre** del almacén de claves. El nombre debe ser único.
-    - Asegúrese de que en la pestaña **Configuración de acceso** está seleccionada la **Directiva de acceso a almacenes**. 
+    - Asegúrese de que en la pestaña **Configuración de acceso** está seleccionado el **control de acceso basado en rol (recomendado) de Azure**. 
     - Seleccione **Revisar + crear**.
     - Espere hasta que se complete la validación y seleccione **Crear**.
     - Una vez que la implementación se haya completado, seleccione **Ir al recurso**.
