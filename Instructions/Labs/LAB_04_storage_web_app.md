@@ -24,8 +24,11 @@ La empresa está diseñando y desarrollando una nueva aplicación. Los desarroll
     - En el portal, busque y seleccione **Cuentas de almacenamiento**. 
     - Seleccione **+ Create** (+ Crear).
     - Para **Grupo de recursos**, seleccione **Crear nuevo**. Asigne un **nombre** al grupo de recursos y seleccione **Aceptar** para guardar los cambios.
-    - Proporcione el **nombre de la cuenta de almacenamiento**. El nombre debe ser único y cumplir con los requisitos de nomenclatura. 
-    - Seleccione **Revisar** y, a continuación, **cree** la cuenta de almacenamiento.
+    - Proporcione el **nombre de la cuenta de almacenamiento**. El nombre debe ser único y cumplir con los requisitos de nomenclatura.
+    - Vaya a la pestaña **Cifrado**.
+    - Active la casilla de **Habilitar cifrado de infraestructura**.
+    - Observe la advertencia, *Esta opción no se puede cambiar después de crear esta cuenta de almacenamiento.*
+    - Seleccione **Revisar + crear**.
     - Espere a que se implemente el recurso.
 
 1. Habilite una identidad de servicio administrada para la aplicación web.  Más información [sobre las identidades administradas](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
@@ -130,7 +133,6 @@ La empresa está diseñando y desarrollando una nueva aplicación. Los desarroll
     - Asigne un **nombre** al ámbito de cifrado. 
     - El **tipo de cifrado** es **clave administrada por Microsoft**.
     - Establezca el **cifrado de infraestructura** en **Habilitar**.
-    - Tenga en cuenta la advertencia de que no se puede cambiar la habilitación del cifrado de infraestructura después de crear el ámbito.
     - **Cree** el ámbito de cifrado
     - Vaya su cuenta de almacenamiento y cree un nuevo contenedor.
     - Observe que en la página **Nuevo contenedor**, aparece el **Nombre** y el **nivel de acceso Público**.
