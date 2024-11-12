@@ -101,3 +101,21 @@ La empresa necesita almacenamiento para sus oficinas y departamentos. Este conte
 
 >**Nota**: Para practicar más, complete el módulo [Configuración de Azure Blob Storage](https://learn.microsoft.com/training/modules/configure-blob-storage/). El módulo tiene una simulación de laboratorio interactiva en la que puede practicar más la creación de almacenamiento de blobs. 
 
+## Ampliar el aprendizaje con Copilot
+
+Copilot puede ayudarte en tu recorrido de aprendizaje. Copilot puede proporcionar información técnica básica, pasos de alto nivel, ventajas y desventajas, ayuda para solucionar problemas, casos de uso, ejemplos de codificación y mucho más. Para acceder a Copilot, abre un explorador Edge y elige Copilot (arriba a la derecha). Dedique unos minutos a probar estas indicaciones.
++ ¿Qué características de seguridad están disponibles para proteger Azure Storage?
++ ¿Qué es una SAS de Azure y cómo se usa?
+
+## Más información con el aprendizaje autodirigido
+
++ [Configurar la seguridad de Azure Storage](https://learn.microsoft.com/training/modules/configure-storage-security/). En este módulo, aprenderás a configurar características comunes de seguridad de Azure Storage, como las firmas de acceso al almacenamiento.
++ [Administrar el ciclo de vida de Azure Blob Storage](https://learn.microsoft.com/training/modules/configure-storage-security/). En este módulo, aprenderás a administrar la disponibilidad de datos a lo largo del ciclo de vida de Azure Blob Storage.
+
+## Puntos clave
+
+Enhorabuena por completar el laboratorio. Estas son las principales conclusiones del laboratorio. 
++ Azure Storage tiene muchas características de protección de datos, incluidas el cifrado, el control de acceso, la seguridad de red, la supervisión y las alertas. 
++ Una Firma de acceso compartido (SAS) ofrece acceso delegado seguro a los recursos en la cuenta de almacenamiento. Con una SAS, tiene control granular sobre la forma en que un cliente puede tener acceso a los datos.
++ La administración del ciclo de vida de Azure Blob Storage ofrece una directiva basada en reglas que se puede usar para trasladar los datos de blob al nivel de acceso adecuado y para hacer que los datos expiren cuando finalice su ciclo de vida.
++ La replicación de objetos copia asincrónicamente los blobs en bloques entre una cuenta de almacenamiento de origen y una de destino.

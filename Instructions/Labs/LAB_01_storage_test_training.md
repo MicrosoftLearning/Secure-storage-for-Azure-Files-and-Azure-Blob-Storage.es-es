@@ -62,3 +62,23 @@ El departamento de TI debe crear prototipos de diferentes escenarios de almacena
     - Asegúrese de **Guardar** los cambios. 
 
 >**Nota**: Para practicar más, complete el módulo [Creación de una cuenta de Azure Storage](https://learn.microsoft.com/training/modules/create-azure-storage-account/). El módulo tiene un espacio aislado donde puede practicar la creación de una cuenta de almacenamiento.
+
+## Ampliar el aprendizaje con Copilot
+
+Copilot puede ayudarte en tu recorrido de aprendizaje. Copilot puede proporcionar información técnica básica, pasos de alto nivel, ventajas y desventajas, ayuda para solucionar problemas, casos de uso, ejemplos de codificación y mucho más. Para acceder a Copilot, abre un explorador Edge y elige Copilot (arriba a la derecha). Dedique unos minutos a probar estas indicaciones.
++ ¿Qué es una cuenta de Azure Storage? ¿Qué tipos de cuentas de Azure Storage hay disponibles?
++ Crea una tabla que compare los niveles de rendimiento de Azure Storage. Resalta sus características clave y casos de uso. 
++ ¿Qué opciones de redundancia de Azure Storage están disponibles? ¿Cuándo se debe usar cada opción?
+
+## Más información con el aprendizaje autodirigido
+
++ [Describir servicios de Azure Storage](https://learn.microsoft.com/training/modules/describe-azure-storage-services/). En este módulo, compararás los servicios de Azure Storage, describirás los niveles de almacenamiento y describirás las opciones de redundancia.
++ [Cree una cuenta de Azure Storage](https://learn.microsoft.com/training/modules/create-azure-storage-account/). En este módulo, crearás y configurarás una cuenta de almacenamiento. 
+
+## Puntos clave
+
+Enhorabuena por completar el laboratorio. Estas son las principales conclusiones del laboratorio. 
++ Una cuenta de Azure Storage es un contenedor que aloja todos los objetos de datos de Azure Storage, incluidos blobs, archivos, colas y tablas.
++ Azure Storage ofrece varios tipos de cuentas de almacenamiento, Estándar y Premium. Cada tipo admite diferentes características y tiene su propio modelo de precios.
++ Azure Storage siempre almacena varias copias de los datos para ayudar a protegerlos frente a eventos planeados y no planeados.
++ Los modelos de redundancia pueden replicar datos en las regiones principales y secundarias. 

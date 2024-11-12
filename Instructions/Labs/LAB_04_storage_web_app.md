@@ -140,3 +140,28 @@ La empresa está diseñando y desarrollando una nueva aplicación. Los desarroll
 
 
 >**Nota**: Para practicar más, complete el módulo [Protección y aislamiento del acceso a recursos de Azure mediante grupos de seguridad de red y puntos de conexión de servicio](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). El módulo tiene un espacio aislado donde podrá practicar más al restringir el acceso al almacenamiento.
+
+## Limpieza de los recursos
+
+Si trabajas con **tu propia suscripción** y has completado estos laboratorios, dedica un minuto a eliminar los recursos del laboratorio. De esta forma estará seguro de que los recursos se liberan y de que se minimiza el costo. La forma más fácil de eliminar los recursos de laboratorio es eliminar el grupo de recursos del laboratorio. 
+
++ En Azure Portal, seleccione el grupo de recursos, seleccione **Eliminar el grupo de recursos**, **Escribir el nombre del grupo de recursos** y, después, haga clic en **Eliminar**.
++ Mediante Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
++ Mediante la CLI, `az group delete --name resourceGroupName`.
+
+## Ampliar el aprendizaje con Copilot
+
+Copilot puede ayudarte en tu recorrido de aprendizaje. Copilot puede proporcionar información técnica básica, pasos de alto nivel, ventajas y desventajas, ayuda para solucionar problemas, casos de uso, ejemplos de codificación y mucho más. Para acceder a Copilot, abre un explorador Edge y elige Copilot (arriba a la derecha). Dedique unos minutos a probar estas indicaciones.
++ ¿Qué es una identidad administrada de Azure y cómo se puede usar con Azure Storage?
++ Qué roles integrados de control de acceso basado en rol (RBAC) están disponibles para administrar el acceso a Azure Storage. 
++ ¿Cuáles son las claves administradas por el cliente y cómo se usan para Azure Storage?
+
+## Más información con el aprendizaje autodirigido
+
++ [Proteja y aísle el acceso a recursos de Azure mediante grupos de seguridad de red y puntos de conexión de servicio](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). En este módulo, aprenderás a usar puntos de conexión de servicio de red virtual para controlar el tráfico de red hacia y desde los servicios de Azure.
+
+## Puntos clave
++ Azure tiene roles RBAC integrados para Azure Storage. Estos roles incluyen: Colaborador de cuenta de almacenamiento, Propietario de datos de blobs de almacenamiento y Colaborador de recursos compartidos de SMB de datos de archivos.
++ Puede usar su propia clave de cifrado para proteger los datos de la cuenta de almacenamiento. Cuando se especifica una clave administrada por el cliente, esa clave se usa para proteger y controlar el acceso a la clave que cifra los datos. 
++ El almacenamiento inmutable garantiza que los datos no se puedan modificar ni eliminar para un intervalo especificado por el usuario. Hay dos tipos de directivas inmutables: duración definida y suspensión legal.
++ El cifrado de infraestructura se puede habilitar para toda la cuenta de almacenamiento o para un ámbito de cifrado dentro de una cuenta. El cifrado de infraestructura se recomienda en escenarios en los que es necesario cifrar los datos doblemente debido a los requisitos de cumplimiento. 
