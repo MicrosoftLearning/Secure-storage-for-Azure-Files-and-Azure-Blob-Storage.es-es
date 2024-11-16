@@ -5,7 +5,7 @@ lab:
 ---
 
 
-La empresa está dispersa geográficamente con oficinas en diferentes ubicaciones.  Estas oficinas necesitan una manera de compartir archivos y difundir información. Por ejemplo, el departamento financiero debe confirmar la información de costes para la auditoría y el cumplimiento. Estos recursos compartidos de archivos deben ser fáciles de acceder y cargar sin demora. Solo se debe tener acceso a algunos contenidos desde redes virtuales corporativas determinadas.
+La empresa está dispersa geográficamente con oficinas en diferentes ubicaciones.  Estas oficinas necesitan una forma de compartir archivos y de difundir información. Por ejemplo, el departamento financiero necesita confirmar la información de los costes de auditoría y cumplimiento. Estos recursos compartidos de archivos deben ser fáciles de acceder y cargar sin demora. Solo se debe tener acceso a algunos contenidos desde redes virtuales corporativas determinadas.
 
 
 ## Diagrama de la arquitectura
@@ -100,3 +100,21 @@ La empresa está dispersa geográficamente con oficinas en diferentes ubicacione
 
 
 >**Nota**: Para practicar más, complete el módulo [Configuración de la seguridad de Azure Storage](https://learn.microsoft.com/training/modules/configure-storage-security/). El módulo tiene una simulación de laboratorio interactiva en la que puede practicar la creación de almacenamiento seguro. 
+
+## Ampliar el aprendizaje con Copilot
+
+Copilot puede ayudarte en tu recorrido de aprendizaje. Copilot puede proporcionar información técnica básica, pasos de alto nivel, ventajas y desventajas, ayuda para solucionar problemas, casos de uso, ejemplos de codificación y mucho más. Para acceder a Copilot, abre un explorador Edge y elige Copilot (arriba a la derecha). Dedique unos minutos a probar estas indicaciones.
++ ¿Qué es Azure File Storage y en qué se diferencia de Azure Blob Storage? ¿Cómo se decide cuál usar?
++ ¿Cuáles son las distintas formas de proteger el contenido de los archivos de Azure?
+
+## Más información con el aprendizaje autodirigido
+
++ [Configurar Azure Files y Azure File Sync](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). En este módulo, aprenderás a configurar recursos compartidos de archivos de Azure e instantáneas de recursos compartidos de archivos.
+
+## Puntos clave
+
+Enhorabuena por completar el laboratorio. Estas son las principales conclusiones del laboratorio. 
++ Azure Files le ofrece recursos compartidos de archivos en la nube totalmente administrados, a los que se puede obtener acceso mediante el protocolo Bloque de mensajes del servidor (SMB) estándar, el protocolo Network File System (NFS) y la API de REST de Azure Files.
++ Azure Files proporciona la capacidad de tomar instantáneas de recursos compartidos de SMB y NFS. Las instantáneas de recursos compartidos capturan el estado del recurso compartido en ese momento dado. Las instantáneas de recurso compartido solo proporcionan protección a nivel de archivo.
++ Puedes configurar un punto de conexión de cuenta de almacenamiento para acceder directamente al recurso compartido de archivos de Azure. Puntos de conexión para restringir el acceso de red a tu cuenta de almacenamiento.
+

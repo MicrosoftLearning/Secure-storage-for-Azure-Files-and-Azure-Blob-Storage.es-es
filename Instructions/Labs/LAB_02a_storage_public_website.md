@@ -3,8 +3,6 @@ lab:
   title: 'Ejercicio 2a: Proporcionar almacenamiento para el sitio web público'
   module: Guided Project - Azure Files and Azure Blobs
 ---
-
-
 El sitio web de la empresa proporciona imágenes de productos, vídeos, documentación de marketing y casos de éxito de clientes. Los clientes se encuentran en todo el mundo y la demanda está creciendo rápidamente. El contenido es crítico y requiere tiempos de carga de baja latencia. Es importante realizar un seguimiento de las versiones del documento y restaurar rápidamente los documentos si se eliminan.
 
 ## Diagrama de la arquitectura
@@ -17,7 +15,6 @@ El sitio web de la empresa proporciona imágenes de productos, vídeos, document
 - Cree un contenedor de Blob Storage para los documentos del sitio web.
 - Habilite la eliminación temporal para que los archivos se puedan restaurar fácilmente.
 - Habilite el control de versiones de blobs. 
-
 
 ## Instrucciones del ejercicio
 
@@ -106,4 +103,21 @@ El sitio web de la empresa proporciona imágenes de productos, vídeos, document
    - **Cargue** otra versión del archivo de contenedor. Esto sobrescribirá el archivo existente. 
    - La versión del archivo anterior aparece en la página **Mostrar blobs eliminados**. 
     
+## Ampliar el aprendizaje con Copilot
 
+Copilot puede ayudarte en tu recorrido de aprendizaje. Copilot puede proporcionar información técnica básica, pasos de alto nivel, ventajas y desventajas, ayuda para solucionar problemas, casos de uso, ejemplos de codificación y mucho más. Para acceder a Copilot, abre un explorador Edge y elige Copilot (arriba a la derecha). Dedique unos minutos a probar estas indicaciones.
++ ¿Qué es Azure Blob Storage y cuándo se debe usar?
++ Compara los diferentes modelos de redundancia de Azure Storage, resaltando sus características clave y casos de uso.
++ ¿Cuáles son los niveles de Azure Storage y cómo pueden ahorrar dinero esos niveles?
+
+## Más información con el aprendizaje autodirigido
+
++ [Explorar Azure Blob Storage](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/). En este módulo, aprenderás las características principales y la funcionalidad de Azure Blob Storage.
+
+## Puntos clave
+
+Enhorabuena por completar el laboratorio. Estas son las principales conclusiones del laboratorio. 
++ Azure Blob Storage está optimizado para el almacenamiento de cantidades masivas de datos no estructurados. Los datos no estructurados son datos que no se ciñen a ningún un modelo de datos o definición concretos, como texto o datos binarios.
++ La eliminación temporal de blobs protege a cada uno de los blobs, instantáneas o versiones de errores accidentales al borrar o sobrescribir los datos, ya que conserva en el sistema los datos eliminados durante el período de tiempo que se especifique. 
++ El control de versiones de blobs conserva automáticamente las versiones anteriores de un blob. Cuando el control de versiones de blobs está habilitado, puedes restaurar una versión anterior de un blob para recuperar los datos si se modifican o eliminan.
++ Cuando se configura un contenedor para el acceso anónimo, cualquier cliente puede leer los datos del mismo.
