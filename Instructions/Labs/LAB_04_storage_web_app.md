@@ -158,7 +158,7 @@ Copilot puede ayudarte en tu recorrido de aprendizaje. Copilot puede proporciona
 
 ## Más información con el aprendizaje autodirigido
 
-+ [Proteja y aísle el acceso a recursos de Azure mediante grupos de seguridad de red y puntos de conexión de servicio](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). En este módulo, aprenderás a usar puntos de conexión de servicio de red virtual para controlar el tráfico de red hacia y desde los servicios de Azure.
++ [Protegerás y aislarás el acceso a recursos de Azure mediante grupos de seguridad de red y puntos de conexión de servicio](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). En este módulo, aprenderás a usar puntos de conexión de servicio de red virtual para controlar el tráfico de red hacia y desde los servicios de Azure.
 
 ## Puntos clave
 + Azure tiene roles RBAC integrados para Azure Storage. Estos roles incluyen: Colaborador de cuenta de almacenamiento, Propietario de datos de blobs de almacenamiento y Colaborador de recursos compartidos de SMB de datos de archivos.
